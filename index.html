@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <!-- 문서 제목 나타낼 때 중요도 순으로 1~6 사이 숫자 넣어서 사용 -->
+    <h1>hello</h1>
+    <h1 id="title" class="title"> 안녕하세요</h1>
+    <h6> hellow</h6>
+    <h3> Good</h3>
+    <!-- 주석은 입력해도 문서상에 나타나지 않음 메모용도 -->
+    <hr>
+    <!-- p 태그는 주로 문단 나누거나 할 때 사용 -->
+    <!-- span태그는 문단내에 특정 문자를 강조하거나 특정 애니메이션이 필요 할 때 사용-->
+    <p>Lorem ipsum dolor sit <span>important</span> consectetur adipisicing elit. <br> Dolor eaque dolores fugiat earum, omnis eius dolorum necessitatibus, modi neque architecto atque. Explicabo ab assumenda officia cupiditate harum unde dicta libero.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, non, porro temporibus id distinctio obcaecati modi incidunt dolor illum, neque veritatis officia. Porro eveniet sequi quod quam hic dolorem mollitia.</p>
+    <!-- a태그는 링크이동 혹은 문서 내에서 어딘가로 스크롤 이동이 필요할 때 id 속성과 연계해서 사용-->
+    <!-- a태그의 target 속성은 새창, 혹은 현재 탭에서 이동할 지 선택 가능 
+     _blank는 새창에서 이동 없을 시 현재 탭에서 이동 -->
+    <a href="https://www.naver.com" target="_blank">일본어....</a>
+    <!-- ./ 혹은 / 이건  상대경로 라고 하고 적용되는 문서 기준으로 경로 입력-->
+    <img src="./test.png" alt="">
+    <!-- https:// 로 시작하는건 무조건 절대경로라고 하고 도메인부터 모든 경로 입력해야함-->
+    <img src="https://picsum.photos/id/210/300/300" alt="랜덤이미지">
+
+    <a href="https://www.google.com" class="title" target="_blank" >google</a>
+    <div class="box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi cumque, minima cum voluptate esse maiores tempore dolores consequatur consequuntur doloribus mollitia porro eveniet ab praesentium accusamus. Consectetur, corrupti ipsum. Minima!</p>
+        <p id="test" class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto excepturi nisi labore, molestiae perspiciatis, illum atque culpa, sint est totam quisquam eligendi asperiores. Quos magni, asperiores ex iusto quis dicta?</p>
+        <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nobis neque aut deleniti iure praesentium nisi doloribus. Ut ratione cupiditate molestiae neque consequatur magnam rerum atque tempora unde sit. Modi.</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

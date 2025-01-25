@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex_box{
+            border:1px solid #000;
+            padding:5px;
+            display:flex;
+            width:210px;
+            flex-wrap:wrap;
+        }
+        .item{
+            width:50px;
+            height:50px;
+            background-color:#000;
+            margin:10px;
+            transition:all 0.5s ease;
+        }
+        .flex_box .item:hover{
+            background-color:purple;
+            transform:translate(10px,10px);
+        }
+        .item:first-child{
+            background-color:lightblue;
+        }
+        .item:last-child{
+            background-color: lightcoral;
+        }
+        .item:nth-child(3n - 1){
+            background-color:lightgreen;
+        }
+
+        .item:nth-child(3),
+        .item:nth-child(5){
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="flex_box">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+
+</body>
+</html>

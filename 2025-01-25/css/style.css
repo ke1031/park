@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+}
+ul{
+  list-style-type: none;
+}
+
+.card_list{
+  display: flex;
+  max-width: 1200px;
+  margin:auto;
+  justify-content: space-between;
+  margin-top: 200px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  width: 240px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.4);
+  padding: 1rem;
+}
+
+.card h3 {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 12px;
+}
+
+.card:hover{
+  background-image: url(../image/2k_sun.jpg);
+}

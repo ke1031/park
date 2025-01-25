@@ -1,0 +1,53 @@
+body
+{
+     background-color: aqua; 
+}
+/* :root 에 저장한 색상 혹은 폰트사이즈 var() 형태고 불러오기 가능 */
+:root{
+    --base_blue: blue;
+    --font_small: 12px;
+}
+h1{
+    font-size:var(--font_small);
+    color:rgb(192, 116, 255);
+    background-color:var(--base_blue);
+    text-align:center;
+}
+h1.title{
+    color:green;
+   /* background-color:unset;*/
+}
+span{
+    color:red;
+    font-size:24px;
+    font-weight:900;
+}
+a.title{
+    color: pink;
+    font-size: 90px;
+}
+a{
+    color:green;
+    font-size: 32px;
+    font-weight: 700;
+}
+a{
+    color:aquamarine;
+}
+p{
+    color:#ffff00;
+    font-size:18px;
+}
+.box{
+    width:500px;
+}
+.box p{
+    color:#333;
+}
+.box #test{
+    color:bisque;
+}
+.box .test{
+    color:white;
+    background:#000;
+}
